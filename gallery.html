@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery — Royal Karachi Biryani KB</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-dark">
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="index.html">
+        <svg width="200" height="60" viewBox="0 0 480 140" xmlns="http://www.w3.org/2000/svg" role="img">
+          <style>
+            .t{font-family:"Playfair Display", serif; font-size:36px; fill: #f6e7c1; font-weight:700}
+            .u{stroke:#d49a3a; stroke-width:5; stroke-linecap:round; fill:none; opacity:0.95}
+          </style>
+          <text x="6" y="50" class="t">Royal Karachi</text>
+          <path class="u" d="M8 70 C160 40, 320 80, 470 52" transform="translate(0,-10)"></path>
+        </svg>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button id="theme-toggle-4" class="btn btn-ghost" title="Toggle theme">🌙</button>
+        <a class="btn btn-primary" href="menu.html">Order</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1 class="section-title">Gallery</h1>
+      <p class="muted">A taste of our space & specialties — demo images included.</p>
+
+      <div class="gallery-grid">
+        <!-- several embedded small SVG images -->
+        <img alt="gallery 1" src="data:image/svg+xml;utf8,
+        <svg xmlns='http://www.w3.org/2000/svg' width='400' height='280' viewBox='0 0 400 280'><rect rx='12' width='100%' height='100%' fill='%23181614'/><ellipse cx='200' cy='140' rx='140' ry='80' fill='%23c86d2e'/></svg>"/>
+        <img alt="gallery 2" src="data:image/svg+xml;utf8,
+        <svg xmlns='http://www.w3.org/2000/svg' width='400' height='280' viewBox='0 0 400 280'><rect rx='12' width='100%' height='100%' fill='%23181614'/><ellipse cx='200' cy='130' rx='120' ry='70' fill='%238c482a'/></svg>"/>
+        <img alt="gallery 3" src="data:image/svg+xml;utf8,
+        <svg xmlns='http://www.w3.org/2000/svg' width='400' height='280' viewBox='0 0 400 280'><rect rx='12' width='100%' height='100%' fill='%23181614'/><ellipse cx='200' cy='140' rx='120' ry='70' fill='%2392b45f'/></svg>"/>
+        <img alt="gallery 4" src="data:image/svg+xml;utf8,
+        <svg xmlns='http://www.w3.org/2000/svg' width='400' height='280' viewBox='0 0 400 280'><rect rx='12' width='100%' height='100%' fill='%23181614'/><circle cx='200' cy='140' r='80' fill='%23f2c36b'/></svg>"/>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© <span id="year-4"></span> Royal Karachi Biryani KB</div>
+      <div>Demo: +971 55 123 4567</div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

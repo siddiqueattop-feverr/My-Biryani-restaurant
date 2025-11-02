@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Royal Karachi Biryani KB — Home</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-dark">
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="index.html" aria-label="Royal Karachi Biryani KB">
+        <!-- Inline SVG logo: stylish font + curved underline -->
+        <svg width="240" height="70" viewBox="0 0 480 140" xmlns="http://www.w3.org/2000/svg" role="img">
+          <style>
+            .t{font-family:"Playfair Display", serif; font-size:44px; fill: #f6e7c1; font-weight:700; letter-spacing:1px}
+            .k{font-family:"Inter", sans-serif; font-size:12px; fill:#f6e7c1}
+            .u{stroke:#d49a3a; stroke-width:6; stroke-linecap:round; fill:none; opacity:0.95}
+          </style>
+          <text x="10" y="52" class="t">Royal Karachi</text>
+          <text x="10" y="92" class="k">Biryani <tspan font-weight="700">KB</tspan></text>
+          <!-- curved underline path under "Royal Karachi" -->
+          <path class="u" d="M8 70 C120 110, 360 18, 470 82" transform="translate(0,-6)"></path>
+        </svg>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn btn-ghost" title="Toggle theme">🌙</button>
+        <a class="btn btn-primary" href="menu.html">Order Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero container">
+      <div class="hero-left">
+        <h1 class="hero-title">Royal Karachi Biryani KB</h1>
+        <p class="hero-sub">Where every bite feels royal — authentic Karachi-style dum biryani, rich spices & slow-cooked aroma.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="menu.html">View Menu</a>
+          <a class="btn btn-outline" href="contact.html">Book a Table</a>
+        </div>
+        <ul class="hero-features">
+          <li>Authentic Karachi Dum Biryani</li>
+          <li>Fresh ingredients, signature masala</li>
+          <li>Available for delivery & catering</li>
+        </ul>
+      </div>
+
+      <div class="hero-right">
+        <!-- Embedded biryani SVG image as data URI -->
+        <img class="hero-image" alt="Biryani plate" src="data:image/svg+xml;utf8,
+        <svg xmlns='http://www.w3.org/2000/svg' width='640' height='480' viewBox='0 0 640 480'>
+          <rect width='100%' height='100%' fill='%23221b18'/>
+          <g transform='translate(80,40)'>
+            <ellipse cx='240' cy='240' rx='200' ry='120' fill='%23c98b3a' opacity='0.95'/>
+            <circle cx='240' cy='200' r='70' fill='%23b23b16'/>
+            <g fill='%23f2c36b' opacity='0.95'>
+              <circle cx='200' cy='180' r='10' />
+              <circle cx='250' cy='240' r='10' />
+              <circle cx='290' cy='210' r='9' />
+              <circle cx='230' cy='160' r='8' />
+            </g>
+            <ellipse cx='240' cy='270' rx='200' ry='18' fill='%23180e0b' opacity='0.12'/>
+          </g>
+        </svg>"/>
+      </div>
+    </section>
+
+    <!-- Quick menu preview -->
+    <section class="container cards-section">
+      <h2 class="section-title">Chef's Specials</h2>
+      <div class="cards">
+        <article class="card">
+          <img alt="Chicken Biryani" src="data:image/svg+xml;utf8,
+          <svg xmlns='http://www.w3.org/2000/svg' width='400' height='240' viewBox='0 0 400 240'>
+            <rect width='100%' height='100%' rx='12' fill='%23181614'/>
+            <circle cx='200' cy='110' r='70' fill='%23c86d2e'/>
+            <circle cx='200' cy='110' r='36' fill='%23a72b0f'/>
+            <g fill='%23ffd78a'>
+              <circle cx='190' cy='100' r='6'/>
+              <circle cx='210' cy='120' r='5'/>
+              <circle cx='180' cy='130' r='4'/>
+            </g>
+          </svg>"/>
+          <div class="card-body">
+            <h3>Chicken Dum Biryani</h3>
+            <p>Slow-cooked chicken with fragrant rice & hand ground masalas.</p>
+            <div class="price">AED 48</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img alt="Mutton Biryani" src="data:image/svg+xml;utf8,
+          <svg xmlns='http://www.w3.org/2000/svg' width='400' height='240' viewBox='0 0 400 240'>
+            <rect width='100%' height='100%' rx='12' fill='%23181614'/>
+            <ellipse cx='200' cy='120' rx='80' ry='45' fill='%238c482a'/>
+            <g fill='%23f7d9a0'>
+              <circle cx='195' cy='105' r='7'/>
+              <circle cx='215' cy='120' r='6'/>
+              <circle cx='180' cy='128' r='5'/>
+            </g>
+          </svg>"/>
+          <div class="card-body">
+            <h3>Mutton Biryani</h3>
+            <p>Rich mutton pieces layered in basmati & baked to perfection.</p>
+            <div class="price">AED 65</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img alt="Veg Biryani" src="data:image/svg+xml;utf8,
+          <svg xmlns='http://www.w3.org/2000/svg' width='400' height='240' viewBox='0 0 400 240'>
+            <rect width='100%' height='100%' rx='12' fill='%23181614'/>
+            <ellipse cx='200' cy='115' rx='85' ry='48' fill='%2392b45f'/>
+            <g fill='%23f7f0c2'>
+              <circle cx='185' cy='100' r='6'/>
+              <circle cx='220' cy='110' r='5'/>
+              <circle cx='200' cy='130' r='4'/>
+            </g>
+          </svg>"/>
+          <div class="card-body">
+            <h3>Vegetable Biryani</h3>
+            <p>Seasonal veggies with fragrant rice & tangy raita.</p>
+            <div class="price">AED 34</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="container footer-cta">
+      <div class="cta-left">
+        <h3>Ready to taste the royal biryani?</h3>
+        <p>Order now or reserve a table — we’ll serve the royal flavor with a smile.</p>
+      </div>
+      <div class="cta-right">
+        <a class="btn btn-primary" href="menu.html">Order Now</a>
+        <a class="btn btn-outline" href="contact.html">Contact Us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© <span id="year"></span> Royal Karachi Biryani KB — All rights reserved.</div>
+      <div>Fake demo number: +971 55 123 4567</div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
